@@ -1,0 +1,12 @@
+nome =  str(input ("digite seu nome:"))
+sobrenome = input("digite seu sobrenome:")
+
+print("tipo da variavel nome:", type (nome))
+print("tipo da variavel sobrenome:", type(sobrenome))
+print(f"nome e sobrenome: {nome}{sobrenome}")
+print ("o numero de letras do nome eh:", len (nome))
+print("o numero de letras do sobrenome eh:", len(sobrenome))
+print("a primeira letra do nome eh:", nome[0])
+print("a ultima letra do nome eh:", nome [-1])
+print("fatiando:", nome [-1])
+print("as 3 primeiras letras:", nome [0:30])
